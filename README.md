@@ -2,8 +2,8 @@
 ```sh
 bastille create phpmyadmin 14.1-RELEASE YourIP-Bastille
 
-bastille bootstrap https://github.com/bastille-templates/phpmyadmin
-bastille template phpmyadmin bastille-templates/phpmyadmin
+bastille bootstrap https://github.com/bastille-templates/mariadb-phpmyadmin
+bastille template phpmyadmin bastille-templates/mariadb-phpmyadmin
 ```
 
 ## Test Run
