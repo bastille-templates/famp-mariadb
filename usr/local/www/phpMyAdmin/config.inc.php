@@ -19,7 +19,7 @@ $cfg['Servers'][$i]['auth_type'] = 'cookie';
 $cfg['Servers'][$i]['user'] = 'root';
 $cfg['Servers'][$i]['password'] = '';
 
-$cfg['blowfish_secret'] = \sodium_hex2bin('');
+$cfg['blowfish_secret'] = \sodium_hex2bin('5ba7c764dd668516338af26f2a299a246cac1b9a40341343951a44059279bcaa');
 $cfg['DefaultLang'] = 'en';
 $cfg['ServerDefault'] = 1;
 $cfg['UploadDir'] = '';
@@ -50,3 +50,5 @@ $cfg['Servers'][$i]['tracking'] = 'pma__tracking';
 $cfg['Servers'][$i]['userconfig'] = 'pma__userconfig';
 $cfg['Servers'][$i]['usergroups'] = 'pma__usergroups';
 $cfg['Servers'][$i]['users'] = 'pma__users';
+
+?>
